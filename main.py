@@ -40,8 +40,8 @@ LetterWordPairs = {'a': 'alfa',
 if __name__ == '__main__':
     UserInput = input("[!] ").lower()
     Counter = 0
-    for Slovo in UserInput:
-        if Slovo[Counter] == ' ':
+    for Letter in UserInput:
+        if Letter[Counter] == ' ':
             print(" ")
-        if Slovo in LetterWordPairs.keys():
+        if Letter in LetterWordPairs.keys():
             print(LetterWordPairs[Slovo[0]])
