@@ -44,4 +44,4 @@ if __name__ == '__main__':
         if Letter[Counter] == ' ':
             print(" ")
         if Letter in LetterWordPairs.keys():
-            print(LetterWordPairs[Slovo[0]])
+            print(LetterWordPairs[Letter[0]])
